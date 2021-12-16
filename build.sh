@@ -1,1 +1,1 @@
-cp _index.html NennmatsuLT2021/index.html
+cp _index.html public/NennmatsuLT2021/index.html

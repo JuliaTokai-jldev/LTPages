@@ -1,4 +1,4 @@
-[submodule "NennmatsuLT2021"]
-	path = NennmatsuLT2021
+[submodule "public/NennmatsuLT2021"]
+	path = public/NennmatsuLT2021
 	url = https://github.com/JuliaTokai-jldev/NennmatsuLT2021
 	branch = main
