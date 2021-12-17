@@ -20,6 +20,16 @@
       </div>
     </div>
 
+    <style type="text/css">
+      .reveal h1,
+      .reveal h2,
+      .reveal h3,
+      .reveal h4,
+      .reveal h5,
+      .reveal h6 {
+        text-transform: none;
+      }
+    </style>
     <script src="/node_modules/reveal.js/dist/reveal.js"></script>
     <script src="/node_modules/reveal.js/plugin/notes/notes.js"></script>
     <script src="/node_modules/reveal.js/plugin/markdown/markdown.js"></script>
@@ -30,6 +40,7 @@
       // - https://revealjs.com/config/
       Reveal.initialize({
         hash: true,
+        transition: 'slide',
 
         // Learn about plugins: https://revealjs.com/plugins/
         plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
